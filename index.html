@@ -20,7 +20,8 @@
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
 
-    <!-- Fonts -->
+	<!-- Fonts -->
+
 
     <!-- Open Sans for body font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
@@ -62,11 +63,11 @@
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Home</a></li>
 				        <li><a href="#mu-about">О нас</a></li>
-				        <li><a href="#mu-schedule">Расписание</a></li>
+				        <li><a href="#mu-schedule">Программа конференции</a></li>
 			            <li><a href="#mu-speakers">Спикеры</a></li>
 			            <li><a href="#mu-pricing">Цены</a></li>
 			            <li><a href="#mu-register">Регистрация</a></li>
-			            <li><a href="#mu-sponsors">Спонсоры</a></li>
+			            <li><a href="#mu-sponsors">Партнеры</a></li>
 			            <li><a href="#mu-contact">Контакты</a></li>
 			      	</ul>
 			    </div><!-- /.navbar-collapse -->
@@ -180,7 +181,7 @@
 						<div class="mu-schedule-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">Расписание</h2>
+								<h2 class="mu-title">Программа конференции</h2>
 							</div>
 
 							<div class="mu-schedule-content-area">
@@ -210,10 +211,12 @@
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
+													<div class="speaker-img-wrap">
+														<img src="assets/images/speaker-1.jpg" alt="event speaker">
+													</div>
 								    				<p class="mu-event-time">10.15-11.00</p>
 								    				<h3>Implementing the Lexical Approach</h3>
-								    				<span>Анна Кащеева</span>
+								    				<span>Anna Kashcheeva</span>
 								    			</div>
 								    		</li>
 								    		<li>
@@ -226,7 +229,7 @@
 											</li>
 											<li>
 												<div class="mu-single-event">
-													<img src="assets/images/speaker-3.jpg" alt="event speaker">
+													<img src="assets/images/speaker-6.jpg" alt="event speaker">
 													<p class="mu-event-time">12.00-12.45</p>
 													<h3>Тема уточняется</h3>
 													<span>Мария Андриевич</span>
@@ -240,35 +243,38 @@
 											</li>
 											<li>
 												<div class="mu-single-event">
-													<img src="assets/images/speaker-3.jpg" alt="event speaker">
+													<img src="assets/images/speaker-7.jpg" alt="event speaker">
 													<p class="mu-event-time">13.15-14.00</p>
 													<h3>Тема уточняется</h3>
-													<span>Оксана Явербаум</span>
+													<span>Oksana Yaverbaum</span>
 												</div>
 											</li>
 											<li>
 												<div class="mu-single-event">
-													<img src="assets/images/speaker-3.jpg" alt="event speaker">
+													<!-- <div class="speaker-img"> -->
+														<img src="assets/images/speaker-5.jpg" alt="event speaker">
+													<!-- </div> -->
+														
 													<p class="mu-event-time">14.10-14.55</p>
 													<h3>Teaching adults</h3>
-													<span>Екатерина Конон</span>
+													<span>Ekaterina Konon</span>
 												</div>
 											</li>
 											<li>
 												<div class="mu-single-event">
-													<img src="assets/images/speaker-3.jpg" alt="event speaker">
+													<img src="assets/images/speaker-8.jpg" alt="event speaker">
 													<p class="mu-event-time">15.00-15.40</p>
 													<h3>Teaching teenagers</h3>
-													<span>Светлана Баранова</span>
+													<span>Svetlana Baranova</span>
 												</div>
 											</li>
 											<li>
 												<div class="mu-single-event">
-													<img src="assets/images/speaker-3.jpg" alt="event speaker">
+													<img src="assets/images/double-speaker.jpg" alt="event speaker">
 													<p class="mu-event-time">15.50-16.30</p>
 													<h3>Student Centeredness: Adapting Coursebooks for Student Personalization</h3>
 													<span>Jonathan Smilow,</span>
-													<span>Дарья Таланова</span>
+													<span>Daria Talanova</span>
 												</div>
 											</li>
 								    	</ul>
@@ -292,7 +298,7 @@
 						<div class="mu-speakers-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">Спикеры</h2>
+								<h2 class="mu-title">Спикеры конференции</h2>
 								<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p> -->
 							</div>
 
@@ -303,11 +309,22 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-5.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Анна Кащеева</h3>
-											<!-- <p>Digital Artist</p>
-											<ul class="mu-single-speakers-social">
+											<h3>Ekaterina Konon</h3>
+											<div class="speaker-desc">
+												<div>
+													EFL teacher, teacher trainer,
+												<!-- <a style="display:block" href="https://vk.com/teacherswitcher"> -->
+													founder of teacherswitcher Teaching Community,
+												<!-- </a> -->
+													CEO of UCanEnglish Language Centre.
+													Author of "The scariest book of Monsters [and superlatives, of course]" and other children's books.
+												</div>
+											</div>
+											<!-- <ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -318,9 +335,15 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-2.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Дарья Таланова</h3>
+											<h3>Daria Talanova</h3>
+											<div class="speaker-desc" style="max-height: 150px;">
+												<div>freelance teacher, MIPT teacher. CPE, CELTA, CAM, Delta M1</div>
+												
+											</div>
 											<!-- <p>Business Consultant</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -334,10 +357,17 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-8.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Катерина Сташевская</h3>
-											<!-- <p>UI/UX Specialist</p>
+											<h3>Svetlana Baranova</h3>
+											<div class="speaker-desc" style="max-height: 150px;">
+												<div>
+														a Cambridge certified English teacher; Lyceum № 4, Ryazan. Svetlana is a certified rater of speaking and writing tasks of the Unified State Exam. Svetlana has been teaching for 6 years. Svetlana is interested in many aspects of ELT but her real passion has always been teaching teens.
+												</div>
+											</div>
+											<!-- <p>Digital Marketer</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -350,9 +380,16 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-4.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
 											<h3>Jonathan Smilow</h3>
+											<div class="speaker-desc" style="max-height: 150px;">
+												<div>
+														Assistant director of studies for In Company and Business English at BKC- IH, Cambridge Delta, IH Certificate in Teacher Training
+												</div>
+											</div>
 											<!-- <p>Digital Marketer</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -364,10 +401,30 @@
 									<!-- End single speaker -->
 
 									<!-- Start single speaker -->
+									
+									<!-- End single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-1.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Екатерина Конон</h3>
+											<h3>Anna Kashcheeva</h3>
+											<div class="speaker-desc" style="max-height: 150px;">
+												<div>
+													IH Teacher Training Certificate; Diploma in Teaching English to Speakers of Other Languages (DELTA);
+												
+													Degree in Teaching English (with distinction).
+													<div>
+														Anna has worked as a teacher and an Assistant Director of Studies.
+														At the moment she is working as a teacher trainer developing and delivering
+														full-time and part-time teacher training courses such as
+														CELTA, IHCAM, IHC121, IHC YLT, TKT 3 Modules, TKT YL
+														as well as some in-house and off-site training programmes. 
+														<div>Anna has presented at various conferences including IATEFL and 
+														she delivered teacher training events and webinars for universities, schools and other parties.</div>
+													</div>
+												</div>
+											</div>
 											<!-- <p>Digital Artist</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -376,11 +433,12 @@
 											</ul> -->
 										</div>
 									</div>
-									<!-- End single speaker -->
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-6.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
 											<h3>Мария Андриевич</h3>
 											<!-- <p>Business Consultant</p>
@@ -396,9 +454,16 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-7.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Оксана Явербаум</h3>
+											<h3>Oksana Yaverbaum</h3>
+											<div class="speaker-desc" style="max-height: 150px;">
+												<div>
+														EFL teacher and teacher trainer; an official representative of Letterland International in Russia, МA in theory of literature at University of South Africa.
+												</div>
+											</div>
 											<!-- <p>UI/UX Specialist</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -412,10 +477,12 @@
 
 									<!-- Start single speaker -->
 									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+										<div class="speaker-img">
+											<img src="assets/images/speaker-3.jpg" alt="speaker img">
+										</div>
 										<div class="mu-single-speakers-info">
-											<h3>Светлана Баранова</h3>
-											<!-- <p>Digital Marketer</p>
+											<h3>Катерина Сташевская</h3>
+											<!-- <p>UI/UX Specialist</p>
 											<ul class="mu-single-speakers-social">
 												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -423,6 +490,7 @@
 											</ul> -->
 										</div>
 									</div>
+									
 									<!-- End single speaker -->
 								</div>
 							</div>
@@ -601,26 +669,38 @@
 						<div class="mu-sponsors-area">
 							
 							<div class="mu-title-area">
-								<h2 class="mu-title">Организаторы</h2>
+								<h2 class="mu-title">Партнеры</h2>
 							</div>
 							
 							<!-- Start spnonsors brand logo -->
 							<div class="mu-sponsors-content">
 								<div class="row">
 									<div class="spons">
-									<div class="col-md-2 col-sm-6 col-xs-12 col-md-offset-4">
-										<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="https://vk.com/englishmannia">
-											<img class="spons-logo" src="assets/images/sponsor-logo-1.jpg" alt="Brand Logo">
-											<p>Englishmannia</p>
-										</a>
-									</div>
+										<div class="col-md-2 col-sm-6 col-xs-12 col-md-offset-2">
+											<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="https://vk.com/englishmannia">
+												<img class="spons-logo" src="assets/images/sponsor-logo-1.jpg" alt="Brand Logo">
+												<p>Englishmannia</p>
+											</a>
+										</div>
 
-									<div class="col-md-2 col-sm-6 col-xs-12">
-										<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="http://globalhouse.online/">
-											<img class="spons-logo" src="assets/images/sponsor-logo-2.jpg" alt="Brand Logo">
-											<p>Студия иностранных языков Global House</p>
-										</a>
-									</div>
+										<div class="col-md-2 col-sm-6 col-xs-12">
+											<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="http://globalhouse.online/">
+												<img class="spons-logo" src="assets/images/sponsor-logo-2.jpg" alt="Brand Logo">
+												<p>Студия иностранных языков Global House</p>
+											</a>
+										</div>
+										<div class="col-md-2 col-sm-6 col-xs-12">
+											<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="https://vk.com/teacherswitcher">
+												<img class="spons-logo" src="assets/images/sponsor-logo-3.jpg" alt="Brand Logo">
+												<p>Teacher switcher</p>
+											</a>
+										</div>
+										<div class="col-md-2 col-sm-6 col-xs-12">
+											<a class="mu-sponsors-single" target="_blank" rel="noopener noreferrer" href="https://vk.com/proenglishteachers">
+												<img class="spons-logo" src="assets/images/sponsor-logo-4.jpg" alt="Brand Logo">
+												<p>ПРО ENGLISH</p>
+											</a>
+										</div>
 									</div>
 
 								</div>
@@ -709,7 +789,8 @@
 	
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script type='text/javascript' src="assets/js/readmore.min.js"></script>
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
 	<!-- Slick slider -->
